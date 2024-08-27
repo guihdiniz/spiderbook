@@ -1,0 +1,135 @@
+.cabeçalho__menu-spider {
+    width: 24px;
+    height: 24px;
+    background-image: url(../img/Menu.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    display: inline-block;
+}
+
+.cabeçalho {
+    background-color: var(--branco);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    width: auto;
+}
+
+.logo {
+    width: 40px;
+    height: 40px;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+}
+
+.container__imagem {
+    padding: 1em;
+}
+
+.lista-menu {
+    display: none;
+    position: absolute;
+    top: 100%;
+    width: 60vw;
+}
+
+.container__botao:checked~.lista-menu {
+    display: block;
+}
+
+.lista-menu__titulo, .lista-menu__item {
+    padding: 1em;
+    background-color: var(--branco);
+}
+
+.lista-menu__titulo {
+    color: var(--cor-titulo);
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.lista-menu__link {
+    color: var(--azul);
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.lista-menu__link:hover {
+    font-weight: 800;
+}
+
+.container__botao {
+    display: none;
+}
+
+.container__titulo {
+    display: none;
+}
+
+.opções {
+    display: none;
+}
+
+ /* Remover espaço em brando lateral no mobile
+
+ */
+ html, body{
+    overflow-x: hidden !important; 
+}
+
+@media screen and (min-width: 1024px) {
+    .container__titulo, .container__titulo--negrito {
+        font-family: var(--fonte-secundaria);
+        font-size: 30px;
+    }
+}
+
+.container__titulo {
+    color: var(--azul);
+    font-weight: 400;
+    display: block;
+}
+
+.container__titulo--negrito {
+    color: var(--cor-titulo);
+    font-weight: 700;
+}
+
+.opções {
+    display: flex;
+}
+
+.opções__item {
+    padding: 0 1em;
+    text-transform: uppercase;
+    color: var(--cor-titulo);
+    font-weight: 700;
+}
+
+.opções__link {
+    text-decoration: none;
+    color: var(--azul);
+    font-weight: 500;
+    width: auto;
+}
+
+.container__imagem-transparente {
+    display: none;
+}
+
+.cabeçalho__menu-spider {
+    display: none;
+}
+
+.opções__botão:checked~.lista-menu {
+    display: block;
+    width: auto;
+}
+
+.opções__botão {
+    display: none;
+}

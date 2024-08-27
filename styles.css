@@ -1,0 +1,23 @@
+@import url(styles/header.css);
+@import url(styles/banner.css);
+@import url(styles/carrossel.css);
+@import url(styles/topicos.css);
+@import url(styles/contato.css);
+@import url(styles/rodape.css);
+
+:root {
+    --cor-de-fundo: #EBECEE;
+    --branco: #FFFFFF;
+    --cor-titulo: #831128;
+    --vermelho-claro: #C61C34;
+    --azul: #18314F;
+    --fonte-principal: "Roboto Condensed", sans-serif;
+    --fonte-secundaria: "Orbitron", sans-serif;
+}
+
+body {
+    background-color: var(--cor-de-fundo);
+    font-family: var(--fonte-principal);
+    font-size: 16px;
+    font-weight: 400;
+}

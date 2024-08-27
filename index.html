@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SpiderBook</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Monoton&family=Orbitron:wght@400..900&display=swap" rel="stylesheet">
+</head>
+
+<body>
+     <header class="cabeçalho">
+          <div class="container">
+                    <input type="checkbox" id="menu" class="container__botao">
+                    <label for="menu">
+                   <span class="cabeçalho__menu-spider container__imagem"> </span>
+                  </label>
+                    <ul class="lista-menu">
+                        <li class="lista-menu__titulo">Categorias</li>
+                        <li class="lista-menu__item">
+                              <a href="#" class="lista-menu__link">Peter Parker</a>
+                         </li>
+                         <li class="lista-menu__item">
+                              <a href="#" class="lista-menu__link">Miles Morales</a>
+                         </li>
+                         <li class="lista-menu__item">
+                              <a href="#" class="lista-menu__link">Universo 616</a>
+                         </li>
+                         <li class="lista-menu__item">
+                              <a href="#" class="lista-menu__link">Universo Ultimate</a>
+                         </li>
+                    </ul>
+               <img src="img/pngegg.png" alt="Logo do SpiderBook" class=logo>
+               <h1 class="container__titulo"><b class="container__titulo--negrito">Spider</b>Books</h1>
+          </div>
+
+          <ul class="opções">
+               <input type="checkbox" id="opções-menu" class="opções__botão">
+               <label for="opções-menu">
+               <li class="opções__item">Categorias</li>
+               </label>
+
+               <ul class="lista-menu">
+                    <li class="lista-menu__item">
+                          <a href="#" class="lista-menu__link">Peter Parker</a>
+                     </li>
+                     <li class="lista-menu__item">
+                          <a href="#" class="lista-menu__link">Miles Morales</a>
+                     </li>
+                     <li class="lista-menu__item">
+                          <a href="#" class="lista-menu__link">Universo 616</a>
+                     </li>
+                     <li class="lista-menu__item">
+                          <a href="#" class="lista-menu__link">Universo Ultimate</a>
+                     </li>
+               </ul>
+
+               <li class="opções__item"><a href="#" class="opções__link">Favoritos</a></li>
+               <li class="opções__item"><a href="#" class="opções__link">Minha estante</a></li>
+          </ul>     
+
+          <div class="container">
+                <a href="#"><img src="img/Vector.png" alt="Meus favoritos" class="container__imagem container__imagem-transparente"></a>
+                <a href="#"><img src="img/Sacola.png" alt="Carrinho de compras" class="container__imagem"></a>
+                <a href="#"><img src="img/Vector (1).png" alt="Meu perfil" class="container__imagem"></a>
+          </div>
+     </header>
+
+      <section class="banner">
+          <h2 class="banner__titulo">Um mundo de histórias em quadrinhos espera por você.</h2>
+          <p class="banner__texto">Encontre em nossa estante tudo sobre o Homem-Aranha!</p>
+          <input type="search" class="banner__pesquisa" placeholder="Qual será sua próxima leitura?">
+      </section>
+
+      <section class="carrossel">
+          <h2 class="carrossel__titulo">NOVOS LANÇAMENTOS</h2>
+          <!-- Slider main container -->
+          <div class="swiper">
+               <!-- Additional required wrapper -->
+               <!-- If we need pagination -->
+               <div class="swiper-pagination"></div>
+
+               <div class="swiper-wrapper">
+                    <!-- Slides -->
+                    <div class="swiper-slide"><img src="img/Lançamento 1.jpeg" alt="Lançamento 1"></div>
+                    <div class="swiper-slide"><img src="img/Lançamento 2.jpeg" alt="Lançamento 2"></div>
+                    <div class="swiper-slide"><img src="img/Lançamento 3.jpeg" alt="Lançamento 3"></div>
+                    <div class="swiper-slide"><img src="img/Lançamento 4.jpeg" alt="Lançamento 4"></div>
+                    <div class="swiper-slide"><img src="img/Lançamento 5.jpeg" alt="Lançamento 5"></div>
+                    <div class="swiper-slide"><img src="img/Lançamento 6.jpeg" alt="Lançamento 6"></div>
+                    <div class="swiper-slide"><img src="img/Lançamento 7.jpeg" alt="Lançamento 7"></div>
+                    <div class="swiper-slide"><img src="img/Lançamento 8.jpeg" alt="Lançamento 8"></div>
+                    <div class="swiper-slide"><img src="img/Lançamento 9.jpeg" alt="Lançamento 9"></div>
+               </div>
+   
+               <!-- If we need navigation buttons -->
+               <div class="swiper-button-prev"></div>
+               <div class="swiper-button-next"></div>
+          </div> 
+
+          <div class="card">
+               <!-- 1ª linha -->
+               <div class="card__descrição">
+                    <!-- 1ª coluna -->
+                    <div class="descrição">
+                         <h3 class="descrição__titulo">Talvez você também se interesse por...</h3>
+                         <h2 class="descrição__titulo-livro">Miles Morales</h2>
+                         <p class="descrição__texto">Miles Morales é um adolescente afro-latino que se torna o Homem-Aranha, com poderes de invisibilidade e explosões bioelétricas.</p>
+                    </div>
+                    <!-- 2ª coluna -->
+                    <img src="img/Miles Morales.jpeg" class="descrição__imagem">
+               </div>
+
+               <!-- 2ª linha -->
+               <div class="card__botões">
+                    <!-- 1ª coluna -->
+                    <ul class="botões">
+                         <li class="botões__item"><img src="img/Vector.png" alt="Favoritar livro"></li>
+                         <li class="botões__item"><img src="img/Sacola.png" alt="Adicionar no carrinho"></li>
+                    </ul>
+                    <!-- 2ª coluna -->
+                     <a href="#" class="botões__ancora">Saiba mais</a>
+               </div>
+
+          </div>
+
+      </section>
+
+      <section class="carrossel">
+          <h2 class="carrossel__titulo">MAIS VENDIDOS</h2>
+          <!-- Slider main container -->
+          <div class="swiper">
+               <!-- Additional required wrapper -->
+               <!-- If we need pagination -->
+               <div class="swiper-pagination"></div>
+
+               <div class="swiper-wrapper">
+                    <!-- Slides -->
+                    <div class="swiper-slide"><img src="img/Vendido 1.jpeg" alt="Vendido 1"></div>
+                    <div class="swiper-slide"><img src="img/Vendido 2.jpeg" alt="Vendido 2"></div>
+                    <div class="swiper-slide"><img src="img/Vendido 3.jpeg" alt="Vendido 3"></div>
+                    <div class="swiper-slide"><img src="img/Vendido 4.jpeg" alt="Vendido 4"></div>
+                    <div class="swiper-slide"><img src="img/Vendido 5.jpeg" alt="Vendido 5"></div>
+                    <div class="swiper-slide"><img src="img/Vendido 6.jpeg" alt="Vendido 6"></div>
+                    <div class="swiper-slide"><img src="img/Vendido 7.jpeg" alt="Vendido 7"></div>
+                    <div class="swiper-slide"><img src="img/Vendido 8.jpeg" alt="Vendido 8"></div>
+                    <div class="swiper-slide"><img src="img/Vendido 9.jpeg" alt="Vendido 9"></div>
+               </div>
+   
+               <!-- If we need navigation buttons -->
+               <div class="swiper-button-prev"></div>
+               <div class="swiper-button-next"></div>
+          </div> 
+
+          <div class="card">
+               <!-- 1ª linha -->
+               <div class="card__descrição">
+                    <!-- 1ª coluna -->
+                    <div class="descrição">
+                         <h3 class="descrição__titulo">Quadrinho do mês</h3>
+                         <h2 class="descrição__titulo-livro">Amazing Fantasy</h2>
+                         <p class="descrição__texto">Peter Parker ganha poderes de aranha e, após a morte de seu tio Ben, decide usá-los para combater o crime como o Homem-Aranha.</p>
+                    </div>
+                    <!-- 2ª coluna -->
+                    <img src="img/Capa mais vendido.jpeg" class="descrição__imagem">
+               </div>
+
+               <!-- 2ª linha -->
+               <div class="card__botões">
+                    <!-- 1ª coluna -->
+                    <ul class="botões">
+                         <li class="botões__item"><img src="img/Vector.png" alt="Favoritar livro"></li>
+                         <li class="botões__item"><img src="img/Sacola.png" alt="Adicionar no carrinho"></li>
+                    </ul>
+                    <!-- 2ª coluna -->
+                     <a href="#" class="botões__ancora">Saiba mais</a>
+               </div>
+
+          </div>
+
+      </section>
+
+      <section class="topicos">
+          <h2 class="topicos__titulo">TÓPICOS VISITADOS RECENTEMENTE</h2>
+          <ul class="topicos__lista">
+               <li class="topicos__item">
+                    <a href="#" class="topicos__link">Peter Parker</a>
+               </li>
+               <li class="topicos__item">
+                    <a href="#" class="topicos__link">Miles Morales</a>
+               </li>
+               <li class="topicos__item">
+                    <a href="#" class="topicos__link">Ultimate Spider-Man</a>
+               </li>
+               <li class="topicos__item">
+                    <a href="#" class="topicos__link">Guerras Secretas</a>
+               </li>
+               <li class="topicos__item">
+                    <a href="#" class="topicos__link">Venom</a>
+               </li>
+               <li class="topicos__item">
+                    <a href="#" class="topicos__link">Sexteto Sinistro</a>
+               </li>
+               <li class="topicos__item">
+                    <a href="#" class="topicos__link">Vingadores</a>
+               </li>
+               <li class="topicos__item">
+                    <a href="#" class="topicos__link">Marvel's Spider-Man</a>
+               </li>
+          </ul>
+      </section>
+
+      <section class="contato">
+          <div class="contato__descrição">
+               <h2 class="contato__titulo">Fique por dentro das novidades!</h2>
+               <p class="contato__texto">Atualizações de quadrinhos, novos livros, promoções e outros.</p>
+          </div>
+          <input type="email" placeholder="Cadastre seu e-mail" class="contato__email">
+      </section>
+
+      <hr />
+
+      <footer class="rodape">
+          <h2 class="rodape__titulo">Desenvolvido por Guilherme</h2>
+      </footer>
+
+      <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+      <script>
+          const swiper = new Swiper('.swiper', {
+               spaceBetween: 10,
+               slidesPerView: 3,
+               pagination: {
+                el: '.swiper-pagination',
+                type: 'bullets',
+               },
+          });
+      </script>
+</body>
+
+</html>
+
+</html>
